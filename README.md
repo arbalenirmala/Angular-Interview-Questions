@@ -3,7 +3,7 @@
 <table>
   <tr>
     <td>1.</td>
-    <td>ng-content vs ng-templte vs ng-container.</td>
+    <td> Explain ng-content vs ng-templte vs ng-container.</td>
   </tr>
   <tr>
     <td>2.</td>
@@ -11,23 +11,23 @@
   </tr>
   <tr>
     <td>3.</td>
-    <td>explain Throttling and Debouncing techniques</td>
+    <td>Explain Throttling and Debouncing techniques</td>
   </tr>
   <tr>
     <td>4.</td>
-    <td>flatmap, exahaustmap, map , mergemap, switchmap, mergemap</td>
+    <td>Explain flatmap, exahaustmap, map , mergemap, switchmap, mergemap</td>
   </tr>
   <tr>
     <td>5.</td>
-    <td>subject in angular</td>
+    <td>Explain Subject in angular</td>
   </tr>
   <tr>
     <td>6.</td>
-    <td>explain state management in Angular</td>
+    <td>Explain state management in Angular</td>
   </tr>
   <tr>
     <td>7.</td>
-    <td>Change detection strategies in Angular</td>
+    <td>Explain Change detection strategies in Angular</td>
   </tr>
   <tr>
     <td></td>
