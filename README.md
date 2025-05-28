@@ -59,13 +59,13 @@
   </tr>
   <tr>
     <td>9.</td>
-    <td>what is markForCheck()? explain with example.<br>
+    <td><b>what is markForCheck()? explain with example.</b><br>
       It's a method provided by Angular’s ChangeDetectorRef that tells Angular to check this component and its children on the next change detection cycle.<br>
       You need markForCheck() when:<br>
       You're using ChangeDetectionStrategy.OnPush<br>
-      A change happens outside of Angular’s zone<br>
+      A change happens outside of Angular’s zone<br><br>
       Example: setTimeout, setInterval, manual service update, WebSocket, etc.<br>
-      Angular didn’t detect the change automatically, and your view is stale<br>
+      Angular didn’t detect the change automatically, and your view is stale<br><br>
       Purpose--&gt;	Manually request Angular to check for changes<br>
       Used--&gt; with	OnPush components<br>
     Triggers--&gt;	A recheck of the component and its children<br>
