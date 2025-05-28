@@ -27,7 +27,7 @@
   </tr>
   <tr>
     <td>7.</td>
-    <td>Explain Change detection strategies in Angular <br>
+    <td><b>Explain Change detection strategies in Angular</b> <br>
       Angular provides two strategies <br>
       1.Default - Trigger: Any change (event, async task, input, etc.) triggers change detection across the entire component tree.
                   Behavior: All components are checked from top to bottom.
@@ -56,6 +56,21 @@
     <td>Traditional CMS vs Headless CMS <br> 
       Traditional CMSes couple back-end and front-end code together, whereas headless systems use a decoupled architecture to integrate with multiple front ends.
     Headless CMSs use APIs to deliver content, allowing developers to use various frontend technologies and display content on different platforms.</td>
+  </tr>
+  <tr>
+    <td>9.</td>
+    <td>what is markForCheck()? explain with example.<br>
+      It's a method provided by Angular’s ChangeDetectorRef that tells Angular to check this component and its children on the next change detection cycle.<br>
+      You need markForCheck() when:<br>
+      You're using ChangeDetectionStrategy.OnPush<br>
+      A change happens outside of Angular’s zone<br>
+      Example: setTimeout, setInterval, manual service update, WebSocket, etc.<br>
+      Angular didn’t detect the change automatically, and your view is stale<br>
+      Purpose--&gt;	Manually request Angular to check for changes<br>
+      Used--&gt; with	OnPush components<br>
+    Triggers--&gt;	A recheck of the component and its children<br>
+    When to use--&gt; When change happens outside Angular’s detection zone
+    </td>
   </tr>
 </table>
 
