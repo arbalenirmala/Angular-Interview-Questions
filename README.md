@@ -28,7 +28,7 @@
   <tr>
     <td>7.</td>
     <td>Explain Change detection strategies in Angular <br>
-      Angular provides two strategies 
+      Angular provides two strategies <br>
       1.Default - Trigger: Any change (event, async task, input, etc.) triggers change detection across the entire component tree.
                   Behavior: All components are checked from top to bottom.
                   Usage: This is Angular’s default behavior.<br>
@@ -36,7 +36,7 @@
               selector: 'app-example',
               templateUrl: './example.component.html',
               changeDetection: ChangeDetectionStrategy.Default
-          })
+          }) <br>
       2.OnPush - Trigger: Change detection runs only when:
             An @Input() reference changes
             An event inside the component fires
