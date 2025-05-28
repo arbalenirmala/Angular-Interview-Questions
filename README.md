@@ -3,7 +3,7 @@
 <table>
   <tr>
     <td>1.</td>
-    <td> Explain ng-content vs ng-templte vs ng-container.</td>
+    <td> Explain ng-content vs ng-template vs ng-container.</td>
   </tr>
   <tr>
     <td>2.</td>
