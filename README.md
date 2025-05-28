@@ -30,8 +30,9 @@
     <td>Explain Change detection strategies in Angular</td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
+    <td>8. </td>
+    <td>traditional cms vs headless cms <br> 
+      Traditional CMSes couple back-end and front-end code together, whereas headless systems use a decoupled architecture to integrate with multiple front ends</td>
   </tr>
 </table>
 
