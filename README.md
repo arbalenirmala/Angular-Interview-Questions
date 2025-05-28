@@ -32,10 +32,10 @@
       1.Default - Trigger: Any change (event, async task, input, etc.) triggers change detection across the entire component tree.
                   Behavior: All components are checked from top to bottom.
                   Usage: This is Angular’s default behavior.<br>
-        @Component({
-              selector: 'app-example',
-              templateUrl: './example.component.html',
-              changeDetection: ChangeDetectionStrategy.Default
+        @Component({ <br>
+              selector: 'app-example',<br>
+              templateUrl: './example.component.html',<br>
+              changeDetection: ChangeDetectionStrategy.Default<br>
           }) <br>
       2.OnPush - Trigger: Change detection runs only when:
             An @Input() reference changes
@@ -44,10 +44,10 @@
             You manually call markForCheck() or detectChanges()
             Behavior: Improves performance by skipping unchanged components.
             Usage: Best for pure, stateless components or heavy UIs.<br>
-            @Component({
-                selector: 'app-fast',
-                templateUrl: './fast.component.html',
-                changeDetection: ChangeDetectionStrategy.OnPush
+            @Component({<br>
+                selector: 'app-fast',<br>
+                templateUrl: './fast.component.html',<br>
+                changeDetection: ChangeDetectionStrategy.OnPush<br>
             })
     </td>
   </tr>
