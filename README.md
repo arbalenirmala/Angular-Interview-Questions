@@ -72,5 +72,17 @@
     When to use--&gt; When change happens outside Angular’s detection zone
     </td>
   </tr>
+  <tr>
+    <td>10.</td>
+    <td>How to measure performance of javascript code?</td>
+  </tr>
+  <tr>
+    <td>11.</td>
+    <td>What is signal?</td>
+  </tr>
+   <tr>
+    <td>12.</td>
+    <td>What is standalone component?</td>
+  </tr>
 </table>
 
