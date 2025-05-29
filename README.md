@@ -84,5 +84,9 @@
     <td>12.</td>
     <td>What is standalone component?</td>
   </tr>
+  <tr>
+    <td>13.</td>
+    <td>How to restrict routes? How to stop loading particular routes?</td>
+  </tr>
 </table>
 
