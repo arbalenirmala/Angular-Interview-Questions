@@ -88,5 +88,13 @@
     <td>13.</td>
     <td>How to restrict routes? How to stop loading particular routes?</td>
   </tr>
+  <tr>
+    <td>14.</td>
+    <td>Pure Pipe vs Impure Pipe</td>
+  </tr>
+   <tr>
+    <td>15.</td>
+    <td>How to pass data with routes?</td>
+  </tr>
 </table>
 
