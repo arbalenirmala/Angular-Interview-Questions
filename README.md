@@ -96,8 +96,6 @@ Pure pipes are suitable for calculations or transformations that depend solely o
 
 Impure pipes are executed on every Angular component change detection cycle, regardless of whether the input value has changed. 
 Impure pipes are used when the pipe's behavior depends on external factors or when the input might change frequently due to user interactions or other dynamic events. 
-<br>
-
     </td>
   </tr>
    <tr>
