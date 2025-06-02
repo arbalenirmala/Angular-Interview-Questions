@@ -90,7 +90,15 @@
   </tr>
   <tr>
     <td>14.</td>
-    <td>Pure Pipe vs Impure Pipe</td>
+    <td>Pure Pipe vs Impure Pipe <br>
+      Pure pipes are executed only when a pure change is detected in the input value. A pure change means either the primitive input value has changed or the object reference has changed. 
+Pure pipes are suitable for calculations or transformations that depend solely on input data and do not rely on external factors. Examples include formatting dates, currencies, or numbers. <br>
+
+Impure pipes are executed on every Angular component change detection cycle, regardless of whether the input value has changed. 
+Impure pipes are used when the pipe's behavior depends on external factors or when the input might change frequently due to user interactions or other dynamic events. 
+<br>
+
+    </td>
   </tr>
    <tr>
     <td>15.</td>
